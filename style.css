@@ -75,6 +75,7 @@
 
 .cloud-image-container{
     animation:  moveRight 45s linear infinite;
+    position: relative;
 }
 
 @keyframes decrease-opacity {
@@ -90,4 +91,5 @@
     top: 2rem;
     animation: moveRight 37s linear infinite,
     decrease-opacity linear forwards infinite;
+    position: absolute;
   }
